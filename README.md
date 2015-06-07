@@ -1,1 +1,1 @@
-See the [munchie-lamb wiki](https://github.com/OpenFlocks/munchie-lamb/wiki).
+See the [wiki](https://github.com/OpenFlocks/snippy-the-sheep/wiki) for details.
