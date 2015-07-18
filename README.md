@@ -1,4 +1,5 @@
 ### Roadmap
+* See [timeline](https://github.com/OpenFlocks/snippy_the_sheep/blob/master/develop/snippy_the_sheep_technology_roadmap.png)
 * See [milestones](https://github.com/OpenFlocks/snippy_the_sheep/milestones).
 
 ### Kanban
