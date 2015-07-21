@@ -76,12 +76,55 @@ Test the RPi.GPIO and your **[RPi B board rev2](https://raspberrypiwonderland.fi
 		>>> GPIO.output(chan_list_output, GPIO.HIGH) # Sets all to 1 / True. LED on.
 		>>> sleep(3)
 		>>> GPIO.output(chan_list_output, GPIO.LOW) # Sets all to 0 / False. LED off.
-		
+		>>> GPIO.cleanup()
+		>>>
+
 		```
 	* Note: this sets 1st to low, 2nd to high:
 	
 		```GPIO.output(chan_list_output, GPIO.LOW, GPIO.HIGH)```
 
+1. ## RPi.GPIO.PWM
+	1. An example to blink an LED once every two seconds.
+		* Note: I have removed this doctest as 'Press return' will incorrectly trigger a  test failure (a 'false positive').
+		```
+		 import RPi.GPIO as GPIO
+		 GPIO.setmode(GPIO.BOARD)
+		 GPIO.setup(7, GPIO.OUT)
+
+		 p = GPIO.PWM(7, 0.5)
+		 p.start(1)
+		 raw_input('Press return to stop') # use raw_input for Python 2. raw for Python 3
+		 p.stop()
+		 GPIO.cleanup()
+
+
+		```
+
+	1. An example to brighten/dim an LED:
+		```
+		>>> import time
+		>>> import RPi.GPIO as GPIO
+		>>> GPIO.setmode(GPIO.BOARD)
+		>>> GPIO.setup(7, GPIO.OUT)
+
+		>>> p = GPIO.PWM(7, 50)  # channel=7 frequency=50Hz
+		>>> p.start(0)
+		>>> try:
+		... 	while 1:
+		... 		for dc in range(0, 101, 5):
+		... 			p.ChangeDutyCycle(dc)
+		... 			time.sleep(0.1)
+		... 		for dc in range(100, -1, -5):
+		... 			p.ChangeDutyCycle(dc)
+		... 			time.sleep(0.1)
+		... except KeyboardInterrupt:
+		... 	pass
+		>>> p.stop()
+		>>> GPIO.cleanup()
+		>>>
+
+		```
 
 1. ## Input - TO DO
 	* Read the value of a GPIO pin
