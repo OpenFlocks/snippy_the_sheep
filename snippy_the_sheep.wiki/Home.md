@@ -13,9 +13,9 @@
 ## Hardware
 * [Latest platform image](https://github.com/OpenFlocks/munchie-lamb/blob/master/develop/hardware/platform.jpg)
 
-## Software
-* TO DO: Add link to master branch
-* See below.
+## Integration
+1. Setup your physical [Connections](https://github.com/OpenFlocks/snippy_the_sheep/blob/master/snippy_the_sheep.wiki/Connections.md)
+1. Run python doctest [test_rpi_gpio_setup](https://github.com/OpenFlocks/snippy_the_sheep/blob/master/snippy_the_sheep.wiki/test_rpi_gpio_setup.md) + observe LED on breadboard to confirm software is working.
 
 # Build + Share Your Own
 1. [OpenFlocks on Google+ Communities](https://plus.google.com/u/0/communities/118002614481412920719)
