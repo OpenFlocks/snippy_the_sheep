@@ -2,7 +2,7 @@
 <package>
   <name>snippy_the_sheep</name>
   <version>0.1.0</version>
-  <description>ROS package for controlling the Track motors.</description>
+  <description>ROS package for controlling the drive motors.</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
   <!-- Example:  -->
