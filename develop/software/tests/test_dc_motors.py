@@ -1,11 +1,15 @@
 #!/usr/bin/python
+import ConfigParser
 import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BOARD)
-motor_1_speed_pin = 13
-motor_1_direction_pin = 15
-motor_2_speed_pin = 16
-motor_2_direction_pin = 18
+
+cfg = ConfigParser.ConfigParser()
+cfg.read("../config-rpi-1-model-b.ini")
+motor_1_speed_pin = cfg.get('motor_pins', 'motor_1_speed_pin')
+motor_1_direction_pin = cfg.get('motor_pins', 'motor_1_direction_pin')
+motor_2_speed_pin = cfg.get('motor_pins', 'motor_2_speed_pin')
+motor_2_direction_pin = cfg.get('motor_pins', 'motor_2_direction_pin')
 
 GPIO.setup(motor_1_speed_pin, GPIO.OUT)
 GPIO.setup(motor_1_direction_pin, GPIO.OUT)
