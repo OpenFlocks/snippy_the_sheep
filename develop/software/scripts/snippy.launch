@@ -1,0 +1,3 @@
+<launch>
+  <node name="brain" pkg="snippy_the_sheep" type="brain.py" />
+</launch>
