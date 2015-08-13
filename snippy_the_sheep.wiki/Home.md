@@ -14,9 +14,7 @@
 * [Latest platform image](https://github.com/OpenFlocks/munchie-lamb/blob/master/develop/hardware/platform.jpg)
 
 ## Integration
-1. Setup your physical [Connections](https://github.com/OpenFlocks/snippy_the_sheep/blob/master/snippy_the_sheep.wiki/Connections.md)
-1. Run python doctest [test_rpi_gpio_setup](https://github.com/OpenFlocks/snippy_the_sheep/blob/master/snippy_the_sheep.wiki/test_rpi_gpio_setup.md) + observe LED on breadboard to confirm software is working.
-
+* [Connections](https://github.com/OpenFlocks/snippy_the_sheep/blob/master/snippy_the_sheep.wiki/Connections.md) will show you how to connect and test the electronics and test the software i.e. separate to the mobile hardware platform.
 # Build + Share Your Own
 1. [OpenFlocks on Google+ Communities](https://plus.google.com/u/0/communities/118002614481412920719)
 1. Hardware
@@ -25,7 +23,7 @@
 		1. [Tracks](https://plus.google.com/116029261109759366331/posts/cVhdK53aWMW) + Motors
 		1. [Shears](https://plus.google.com/116029261109759366331/posts/NPHqmM3FUvK)
 	1. Electronics
-		1. Batteries
+		1. [Power](https://github.com/OpenFlocks/snippy_the_sheep/blob/master/snippy_the_sheep.wiki/Power.md)
 		1. [Sensors](https://plus.google.com/116029261109759366331/posts/8TLDPgNvDEc)
 		1. [Raspberry Pi](https://raspberrypiwonderland.files.wordpress.com/2014/02/raspberry-pi-rev2-gpio-pinout.jpg)
 		1. [Dual Motor Controller](http://www.dfrobot.com/wiki/index.php/MD1.3_2A_Dual_Motor_Controller_SKU_DRI0002)

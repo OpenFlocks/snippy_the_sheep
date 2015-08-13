@@ -51,6 +51,21 @@
 		1. Connect power (mains adaptor or battery) leads to VS + GND.
 	1. ### Test From RPi
 		1. Connect power to RPi.
+		1. ```scp``` the code directory ```~/catkin_ws/src/snippy_the_sheep``` from Laptop to ROS catkin workspace location on RPi.
+		1. Build ROS environment on RPi by running ```catkin_make```
+			1. Takes about 30 minutes!
+		1. Replace ```Defaults env_reset``` with ```Defaults env_keep += "PYTHONPATH"``` in ```/etc/sudoers``` via ```sudo visudo```.
+		1. Run ```roscore``` in terminal 1  (non-root user), ```drive.py``` in terminal 2 (root user) and then ```brain.py``` in terminal 3 (root user).
+
+		1. Run test as root.
+			```
+			sudo su
+			source /opt/ros/indigo/devel/setup.bash
+			python drive.py # aka in terminal 2
+			...
+			python brain.py # aka in terminal 3
+			```
+			You should see motors spin forward, stop, then spin backward.
 		1. TO DO: write [doctest](https://waffle.io/OpenFlocks/snippy_the_sheep/cards/55b16501ab5c863200b41cd1).
 		1. Shutdown RPi.
 			```
