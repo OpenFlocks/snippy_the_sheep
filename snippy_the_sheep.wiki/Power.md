@@ -9,7 +9,7 @@
 		1. Join 5 batteries in [series connection](http://www.dcbattery.com/faq.html#6) to sum voltage (5 x 1.2v = 6v) but keep amps the same (1.1 amps).
 			1. Note: batteries in parallel connection keeps volts same, sums amps.
 	1. Configuration
-		1. Buy 2 (2 x 4 battery, 2 x 1 battery = 10 batteries, 12 volts) [D size battery holders](http://www.ebay.com.au/itm/4-D-Battery-Holder-/131004784066?hash=item1e807e5dc2)
+		1. Buy 2 (2 x [4 battery](http://www.ebay.com.au/itm/4-D-Battery-Holder-/131004784066?hash=item1e807e5dc2), 2 x [1 battery](http://www.ebay.com.au/itm/Plastic-Battery-Holder-for-1-D-Size-battery-/121183779623?hash=item1c371dbb27) = 10 batteries, 12 volts) D size battery holders.
 		1. Test voltage and amps by connecting 3 battery holders to multimeter.
 		1. Expect 12 volts and 1.1 amps as groups 1 + 2 +ve and -ve wires will be connected to input power on Dual Motor Controller.
 1. ## Raspberry Pi
