@@ -15,6 +15,7 @@
 
 ## Integration
 * [Connections](https://github.com/OpenFlocks/snippy_the_sheep/blob/master/snippy_the_sheep.wiki/Connections.md) will show you how to connect and test the electronics and test the software i.e. separate to the mobile hardware platform.
+
 # Build + Share Your Own
 1. [OpenFlocks on Google+ Communities](https://plus.google.com/u/0/communities/118002614481412920719)
 1. Hardware
