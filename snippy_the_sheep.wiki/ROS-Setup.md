@@ -1,7 +1,20 @@
-# Installing ROS on RPi
-* This [tutorial](http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Indigo%20on%20Raspberry%20Pi) was tested on my RPi B Board Rev 2.
+---
 
-# Laptop + Beaglebone Black
+
+# Installing ROS + Snippy The Sheep on RPi
+
+## ROS
+1. This [tutorial](http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Indigo%20on%20Raspberry%20Pi) was tested on my RPi B Board Rev 2.
+
+## Snippy The Sheep Code
+1. Make directory in your workspace ```$mkdir ~/catkin_ws/src/snippy_the_sheep```
+1. Download or fork [Snippy The Sheep code](https://github.com/OpenFlocks/snippy_the_sheep) into that directory.
+
+---
+
+## [WARNING: Show-stopper Device Tree Issue](https://waffle.io/OpenFlocks/snippy_the_sheep/cards/559862d0a7b4291400474126)
+
+## Laptop + Beaglebone Black
 * These are the core commands to setup ROS on Ubuntu 14.04. See [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials) for full details.
 
 ```
@@ -28,9 +41,9 @@ rospack profile
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 ```
 
-# Beaglebone Black
+## Beaglebone Black
 
-## Loading Device Tree Overlay
+### Loading Device Tree Overlay
 
 * For Ubuntu 14.04 you need to install linux-image-3.8.13-bone68 to use bone_capemgr. Use following commands to install linux-image-3.8.13-bone68
 ```
@@ -55,3 +68,5 @@ cat $PINS
 ## References
 * [Beagleboard Getting Started](http://beagleboard.org/getting-started)
 * [Beaglebone Black](http://elinux.org/Beagleboard:BeagleBoneBlack)
+
+---
