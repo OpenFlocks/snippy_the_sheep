@@ -41,9 +41,11 @@
 
 ## Power
 
-| Index | Component    | Part                  | Quantity | Approx USD $ | Tested? | Cumulative $ |
-|-------|--------------|-----------------------|----------|--------------|---------|-|
-|  1    | Power        | [5v Battery pack](http://www.yoobao.com/en/product.asp?a_id=295&b_id=143) for RPi | 1        | $55          | Yes     | |
-|  2    | Power        | [10 x D size batteries 1.2v](http://www.ebay.com.au/itm/10-pcs-D-11000mAh-Ni-Mh-1-2V-rechargeable-battery-RED-/170712880328?hash=item27bf47d4c8) for 2 x 6v DC drive motors | 1        | $40           | Yes     | |
-|  3    | Power        | 2 x [4 battery](http://www.ebay.com.au/itm/4-D-Battery-Holder-/131004784066?hash=item1e807e5dc2), 2 x [1 battery](http://www.ebay.com.au/itm/Plastic-Battery-Holder-for-1-D-Size-battery-/121183779623?hash=item1c371dbb27) D size battery holders | 4        | $22           | No     | |
-|       | Sub-totals   |                       | 6        | $117         |  | $447 |
+| Index | Component | Part | Quantity | Approx USD $ | Tested? | Cumulative $ |
+|-------|-----------|------|----------|--------------|---------|--------------|
+|  1    | Power     | [5v Battery pack](http://www.yoobao.com/en/product.asp?a_id=295&b_id=143) for RPi | 1        | $55          | Yes     |              |
+|  2    | Power     | [10 x D size batteries 1.2v](http://www.ebay.com.au/itm/10-pcs-D-11000mAh-Ni-Mh-1-2V-rechargeable-battery-RED-/170712880328?hash=item27bf47d4c8) for 2 x 6v DC drive motors            | 1        | $40          | Yes     |              |
+|  3    | Power     | 2 x [4 battery](http://www.ebay.com.au/itm/4-D-Battery-Holder-/131004784066?hash=item1e807e5dc2), 2 x [1 battery](http://www.ebay.com.au/itm/Plastic-Battery-Holder-for-1-D-Size-battery-/121183779623?hash=item1c371dbb27) D size battery holders                    | 4        | $22          | No      |              |
+|       | Sub-totals |     | 6        | $117         |         | $447         |
+
+End
