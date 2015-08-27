@@ -7,7 +7,7 @@
 	* Other garden helpers ...
 
 # Next Milestone
-* [Make Snippy Move](https://github.com/OpenFlocks/snippy-the-sheep/milestones 0.1 - Move Snippy Forward)
+* [Make Snippy Move](https://github.com/OpenFlocks/snippy_the_sheep/milestones/0.1%20-%20Make%20Snippy%20Move)
 
 # Latest Builds
 ## Hardware
